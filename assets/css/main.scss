@@ -1,0 +1,43 @@
+---
+---
+@import "bootstrap";
+/* @import "main"; */
+
+.jumbotron{
+  background: url("../img/skyline.jpg");
+  background-position-y: 40%; 
+  /* background-position-x: 100%; */
+  height: 400px;
+}
+
+.bg-light-blue{
+  background: rgb(232, 236, 240); /* rgba(221, 231, 239, 0.44); */
+}
+
+// copiato da https://getbootstrap.com/docs/4.4/examples/sticky-footer/sticky-footer.css 
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/* Sticky footer styles*/
+  html{
+    position: relative;
+    min-height: 100%;
+  }
+  body{
+      /* Margin botton by footer height */
+      margin-bottom: 72px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 72px;
+    line-height: 72px; /*Vertically center the text */
+    background-color: #f5f5f5;
+
+    p{
+      margin-bottom: 0px;
+    }
+  }
